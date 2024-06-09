@@ -1,16 +1,15 @@
 // Copyright (c) Duende Software. All rights reserved.
 // See LICENSE in the project root for license information.
 
-
 using IdentityModel;
 using System.Security.Claims;
 using System.Text.Json;
 using Duende.IdentityServer;
 using Duende.IdentityServer.Test;
 
-namespace msa.identityserver;
+namespace MSA.IdentityServer;
 
-public class TestUsers
+public static class TestUsers
 {
     public static List<TestUser> Users
     {
@@ -20,7 +19,7 @@ public class TestUsers
             {
                 street_address = "One Hacker Way",
                 locality = "Heidelberg",
-                postal_code = 69118,
+                postal_code = "69118",
                 country = "Germany"
             };
                 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MSA.BankService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cebdab9f6439d70524c1a128a6228be68be6bac0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MSA.BankService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MSA.BankService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

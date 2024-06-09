@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/e/works/exercise/msa.fundamental/src/msa.reverseproxy/MSA.ReverseProxy.csproj": {}
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.ReverseProxy/MSA.ReverseProxy.csproj": {}
   },
   "projects": {
-    "/mnt/e/works/exercise/msa.fundamental/src/msa.reverseproxy/MSA.ReverseProxy.csproj": {
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.ReverseProxy/MSA.ReverseProxy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/e/works/exercise/msa.fundamental/src/msa.reverseproxy/MSA.ReverseProxy.csproj",
+        "projectUniqueName": "/home/cohuynhh/sd2990-msa-fundamental/MSA.ReverseProxy/MSA.ReverseProxy.csproj",
         "projectName": "MSA.ReverseProxy",
-        "projectPath": "/mnt/e/works/exercise/msa.fundamental/src/msa.reverseproxy/MSA.ReverseProxy.csproj",
-        "packagesPath": "/home/sonhuynh/.nuget/packages/",
-        "outputPath": "/mnt/e/works/exercise/msa.fundamental/src/msa.reverseproxy/obj/",
+        "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.ReverseProxy/MSA.ReverseProxy.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.ReverseProxy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/sonhuynh/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -48,7 +48,7 @@
             },
             "Yarp.ReverseProxy": {
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -62,6 +62,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.19, 7.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }

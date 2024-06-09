@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace msa.identityserver.Pages.Ciba;
+namespace MSA.IdentityServer.Pages.Ciba;
 
 [AllowAnonymous]
 [SecurityHeaders]
 public class IndexModel : PageModel
 {
-    public BackchannelUserLoginRequest LoginRequest { get; set; }
+    public BackchannelUserLoginRequest LoginRequest { get; set; } = default!;
 
     private readonly IBackchannelAuthenticationInteractionService _backchannelAuthenticationInteraction;
     private readonly ILogger<IndexModel> _logger;
@@ -26,13 +26,17 @@ public class IndexModel : PageModel
 
     public async Task<IActionResult> OnGet(string id)
     {
-        LoginRequest = await _backchannelAuthenticationInteraction.GetLoginRequestByInternalIdAsync(id);
-        if (LoginRequest == null)
+        var result = await _backchannelAuthenticationInteraction.GetLoginRequestByInternalIdAsync(id);
+        if (result == null)
         {
-            _logger.LogWarning("Invalid backchannel login id {id}", id);
+            _logger.InvalidBackchannelLoginId(id);
             return RedirectToPage("/Home/Error/Index");
         }
-
+        else
+        {
+            LoginRequest = result;
+        }
+        
         return Page();
     }
 }

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "gE/46jb5nkl2XHyc4SPqtpUJ4yNccbMJBcnBxZbkQGiAGAIg849OppbR1sh0rOxlzzeRKfdPgbdT1vrH3HHelA==",
+  "success": true,
+  "projectFilePath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.configuration.binder/7.0.4/microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

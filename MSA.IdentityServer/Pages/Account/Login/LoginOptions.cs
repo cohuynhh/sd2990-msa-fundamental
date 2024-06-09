@@ -1,9 +1,12 @@
-namespace msa.identityserver.Pages.Login;
+// Copyright (c) Duende Software. All rights reserved.
+// See LICENSE in the project root for license information.
 
-public class LoginOptions
+namespace MSA.IdentityServer.Pages.Login;
+
+public static class LoginOptions
 {
-    public static bool AllowLocalLogin = true;
-    public static bool AllowRememberLogin = true;
-    public static TimeSpan RememberMeLoginDuration = TimeSpan.FromDays(30);
-    public static string InvalidCredentialsErrorMessage = "Invalid username or password";
+    public static readonly bool AllowLocalLogin = true;
+    public static readonly bool AllowRememberLogin = true;
+    public static readonly TimeSpan RememberMeLoginDuration = TimeSpan.FromDays(30);
+    public static readonly string InvalidCredentialsErrorMessage = "Invalid username or password";
 }

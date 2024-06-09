@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.ProductService\\MSA.ProductService.csproj": {}
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.ProductService/MSA.ProductService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj": {
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj",
+        "projectUniqueName": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj",
         "projectName": "MSA.Common.Contracts",
-        "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj",
-        "packagesPath": "C:\\Users\\cohuynhh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\obj\\",
+        "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cohuynhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -72,58 +62,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Mongo\\MSA.Common.Mongo.csproj": {
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Mongo/MSA.Common.Mongo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Mongo\\MSA.Common.Mongo.csproj",
+        "projectUniqueName": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Mongo/MSA.Common.Mongo.csproj",
         "projectName": "MSA.Common.Mongo",
-        "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Mongo\\MSA.Common.Mongo.csproj",
-        "packagesPath": "C:\\Users\\cohuynhh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Mongo\\obj\\",
+        "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Mongo/MSA.Common.Mongo.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Mongo/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cohuynhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj"
               }
             }
           }
@@ -132,11 +103,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -159,58 +125,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.PostgresMassTransit\\MSA.Common.PostgresMassTransit.csproj": {
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.PostgresMassTransit/MSA.Common.PostgresMassTransit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.PostgresMassTransit\\MSA.Common.PostgresMassTransit.csproj",
+        "projectUniqueName": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.PostgresMassTransit/MSA.Common.PostgresMassTransit.csproj",
         "projectName": "MSA.Common.PostgresMassTransit",
-        "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.PostgresMassTransit\\MSA.Common.PostgresMassTransit.csproj",
-        "packagesPath": "C:\\Users\\cohuynhh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.PostgresMassTransit\\obj\\",
+        "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.PostgresMassTransit/MSA.Common.PostgresMassTransit.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.PostgresMassTransit/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cohuynhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj"
               }
             }
           }
@@ -219,11 +166,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -266,58 +208,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Security\\MSA.Common.Security.csproj": {
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Security/MSA.Common.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Security\\MSA.Common.Security.csproj",
+        "projectUniqueName": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Security/MSA.Common.Security.csproj",
         "projectName": "MSA.Common.Security",
-        "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Security\\MSA.Common.Security.csproj",
-        "packagesPath": "C:\\Users\\cohuynhh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Security\\obj\\",
+        "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Security/MSA.Common.Security.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Security/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cohuynhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj"
               }
             }
           }
@@ -326,11 +249,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -353,67 +271,48 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.ProductService\\MSA.ProductService.csproj": {
+    "/home/cohuynhh/sd2990-msa-fundamental/MSA.ProductService/MSA.ProductService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.ProductService\\MSA.ProductService.csproj",
+        "projectUniqueName": "/home/cohuynhh/sd2990-msa-fundamental/MSA.ProductService/MSA.ProductService.csproj",
         "projectName": "MSA.ProductService",
-        "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.ProductService\\MSA.ProductService.csproj",
-        "packagesPath": "C:\\Users\\cohuynhh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.ProductService\\obj\\",
+        "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.ProductService/MSA.ProductService.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.ProductService/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cohuynhh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Contracts\\MSA.Common.Contracts.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Contracts/MSA.Common.Contracts.csproj"
               },
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Mongo\\MSA.Common.Mongo.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Mongo\\MSA.Common.Mongo.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Mongo/MSA.Common.Mongo.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Mongo/MSA.Common.Mongo.csproj"
               },
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.PostgresMassTransit\\MSA.Common.PostgresMassTransit.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.PostgresMassTransit\\MSA.Common.PostgresMassTransit.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.PostgresMassTransit/MSA.Common.PostgresMassTransit.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.PostgresMassTransit/MSA.Common.PostgresMassTransit.csproj"
               },
-              "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Security\\MSA.Common.Security.csproj": {
-                "projectPath": "C:\\Users\\cohuynhh\\OneDrive\\MSA\\msa.fundamental-master\\msa.fundamental-master\\src\\MSA.Common.Security\\MSA.Common.Security.csproj"
+              "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Security/MSA.Common.Security.csproj": {
+                "projectPath": "/home/cohuynhh/sd2990-msa-fundamental/MSA.Common.Security/MSA.Common.Security.csproj"
               }
             }
           }
@@ -422,11 +321,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -455,20 +349,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.19, 7.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -479,7 +361,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }
